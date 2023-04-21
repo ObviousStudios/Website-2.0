@@ -1,0 +1,54 @@
+body{
+    overflow-x: hidden;
+    font-family: Monospace;
+}
+
+.siteContent{
+    width: 100vw;
+    height: calc(100vh - 3vw);
+    position: absolute;
+    top: 3vw;
+}
+
+.Centered{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: auto;
+    height: 75vh;
+
+    transition : filter 0.75s;
+    filter: var(--LogoColor) drop-shadow(0 0 0.75rem var(--LogoGlow));
+}
+
+.MainSpeel{
+    justify-content: center;
+    position: absolute;
+    width: 100vw;
+    top: 75%;
+    text-align: center;
+}
+
+.WelcomeText{
+    font-size: 2rem;
+    font-family: Monospace;
+}
+
+.wholeLine{
+    width: 100vw;
+}
+
+.Explore {
+    justify-content: left;
+    padding-left: 25vw;
+    width: 50vw;
+    display: flex;
+  }
+
+.cssIsStupid {
+    width: 12.5vw;
+    padding: 0px;
+    margin: 0px;
+}
