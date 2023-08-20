@@ -1,27 +1,15 @@
-const exploreButtons = () =>{
-    class ExploreButton{
-        constructor(Element,Func){
-            this.Element = document.getElementById(Element);
-            this.Func = Func;
-
-            this.Element.onclick = this.Func;
+class elementButton{
+    constructor(element,onClick){
+        this.element = document.getElementById(element);
+        this.onClick = onClick;
+        this.element.onclick = () => {
+            window.location.href = this.onClick;
         }
     }
-    new ExploreButton("gameBut",(event) => {
-        window.location.href = "https://obviousstudios.dev/games/"
-    });
-
-    new ExploreButton("toolBut",(event) => {
-        window.location.href = "https://obviousstudios.dev/tools/"
-    });
-
-    new ExploreButton("peepBut",(event) => {
-        window.location.href = "https://obviousstudios.dev/team/"
-    });
-
-    new ExploreButton("blogBut",(event) => {
-        window.location.href = "https://obviousstudios.dev/blog/"
-    });
 }
 
-exploreButtons();
+new elementButton("OAC","https://obviousstudios.dev/comingSoon/");
+new elementButton("CORBAND","https://obviousstudios.dev/comingSoon/");
+new elementButton("BRAYDONC","https://obviousstudios.dev/comingSoon/");
+new elementButton("COLTEN","https://obviousstudios.dev/comingSoon/");
+new elementButton("WILL","https://obviousstudios.dev/comingSoon/");
