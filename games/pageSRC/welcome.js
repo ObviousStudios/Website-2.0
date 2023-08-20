@@ -3,7 +3,7 @@ const Intro = () => {
     const originalText = WelcomeText.textContent
     WelcomeText.textContent = ""
 
-    const titleText = "Obvious Studios!"
+    const titleText = "Games"
 
     const typeoutTitle = () => {
         //add a basic interval

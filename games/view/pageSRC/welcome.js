@@ -1,9 +1,9 @@
 const Intro = () => {
     const WelcomeText = document.getElementById("WelcomeText")
-    const originalText = WelcomeText.textContent
+    const originalText = gameData.Name
     WelcomeText.textContent = ""
 
-    const titleText = "Obvious Studios!"
+    const titleText = gameData.Name
 
     const typeoutTitle = () => {
         //add a basic interval
@@ -30,6 +30,7 @@ const Intro = () => {
 
     typeoutTitle()
 
+
     const typeout = (text, element) => {
         //add a basic interval
         let charid = 0
@@ -42,6 +43,9 @@ const Intro = () => {
             charid += 1
         }, 62);
     }
+
+    const descElement = document.getElementById("gameDesc")
+    descElement.innerHTML = gameData.Description
 
     typeout(originalText,WelcomeText)
 }

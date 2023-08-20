@@ -5,6 +5,24 @@
     top: 3vw;
 }
 
+.smallLogo{
+        width: auto;
+        height: 25vh;
+    
+        transition : all 0.75s;
+        filter: var(--LogoColor) drop-shadow(0 0 0.75rem var(--LogoGlow));
+}
+
+.smallerLogo{
+    width: auto;
+    height: 10vh;
+    position: absolute;
+    left: 1.25vw;
+    top: -1.25vw;
+    transition : all 0.75s;
+    filter: var(--LogoColor) drop-shadow(0 0 0.75rem var(--LogoGlow));
+}
+
 .Centered{
     display: flex;
     justify-content: center;
@@ -63,32 +81,39 @@
     border-radius: 0.5vw;
 }
 
-.gameICO{
-    background-image: url(https://raw.githubusercontent.com/ObviousStudios/Website-Asset-Directory/main/images/Games.png);
-    background-position: center;
-    background-size: cover;
-}
-
-.toolICO{
-    background-image: url(https://raw.githubusercontent.com/ObviousStudios/Website-Asset-Directory/main/images/Tools.png);
-    background-position: center;
-    background-size: cover;
-}
-
-.peopleICO{
-    background-image: url(https://raw.githubusercontent.com/ObviousStudios/Website-Asset-Directory/main/images/Team.png);
-    background-position: center;
-    background-size: cover;
-}
-
-.blogICO{
-    background-image: url(https://raw.githubusercontent.com/ObviousStudios/Website-Asset-Directory/main/images/Blog.png);
-    background-position: center;
-    background-size: cover;
+.gameDesc{
+    font-size: x-large;
+    text-align: left;
 }
 
 .link{
     margin: 0;
     padding: 0;
     line-height: 1vw;
+}
+
+.AmongUsSusSus{
+    display: flexbox;
+}
+
+.gameButton{
+    width: 7.5vh;
+    transition: all 0.4s ease-in-out;
+    height: auto;
+}
+
+.gog{
+    filter: var(--LogoColor) drop-shadow(0 0 0.75rem var(--LogoGlow));
+    transition: all 0.25 ease-in-out;
+}
+
+.gj{
+    filter: drop-shadow(0 0 0.75rem #ffffff);
+    transition: all 0.25 ease-in-out;
+}
+
+.gameButton:hover{
+    width: 10vh;
+    transition: all 0.4s ease-in-out;
+    height: auto;
 }

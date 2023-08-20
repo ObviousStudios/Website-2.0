@@ -5,6 +5,14 @@
     top: 3vw;
 }
 
+.smallLogo{
+        width: auto;
+        height: 25vh;
+    
+        transition : all 0.75s;
+        filter: var(--LogoColor) drop-shadow(0 0 0.75rem var(--LogoGlow));
+}
+
 .Centered{
     display: flex;
     justify-content: center;
@@ -63,28 +71,58 @@
     border-radius: 0.5vw;
 }
 
-.gameICO{
-    background-image: url(https://raw.githubusercontent.com/ObviousStudios/Website-Asset-Directory/main/images/Games.png);
-    background-position: center;
-    background-size: cover;
+.gameCard{
+    left: 37.5vw;
+    position: relative;
+    width: 25vw;
+    height:12.5vw;
+    line-height: 12.5vw;
+    font-size: 3vw;
+    border-radius: 0.5vw;
+    transition : all 250ms ease-out;
+    color: #efefef;
 }
 
-.toolICO{
-    background-image: url(https://raw.githubusercontent.com/ObviousStudios/Website-Asset-Directory/main/images/Tools.png);
-    background-position: center;
-    background-size: cover;
+.twoLineGameCard{
+    left: 37.5vw;
+    position: relative;
+    width: 25vw;
+    height:12.5vw;
+    line-height: 6.25vw;
+    font-size: 3vw;
+    border-radius: 0.5vw;
+    transition : all 250ms ease-out;
+    color: #efefef;
 }
 
-.peopleICO{
-    background-image: url(https://raw.githubusercontent.com/ObviousStudios/Website-Asset-Directory/main/images/Team.png);
-    background-position: center;
-    background-size: cover;
+.gameCard:hover{
+    border-radius: 2.5vw;
+    transition : all 250ms ease-in;
+    
 }
 
-.blogICO{
-    background-image: url(https://raw.githubusercontent.com/ObviousStudios/Website-Asset-Directory/main/images/Blog.png);
-    background-position: center;
-    background-size: cover;
+.twoLineGameCard:hover{
+    border-radius: 2.5vw;
+    transition : all 250ms ease-in;
+}
+
+.gamePresentation{
+    height: 100%;
+    transition: all 250ms ease-out;
+    border-radius: 0.5vw;
+    backdrop-filter: blur(0rem);
+    color: #ffffff00;
+
+    offset-position: 0vw 2.5vw;
+}
+
+.gamePresentation:hover{
+    transition: all 250ms ease-in;
+    border-radius: 2.5vw;
+    backdrop-filter: blur(1rem);
+    color: #ffffffff;
+
+    offset-position: 0vw 0vw;
 }
 
 .link{
