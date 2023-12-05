@@ -1,0 +1,146 @@
+.siteContent{
+    width: 100vw;
+    height: calc(100vh - 3vw);
+    position: absolute;
+    top: 3vw;
+}
+
+.smallLogo{
+        width: auto;
+        height: 25vh;
+    
+        transition : all 0.75s;
+        filter: var(--LogoColor) drop-shadow(0 0 0.75rem var(--LogoGlow));
+}
+
+.Centered{
+    display: flex;
+    justify-content: center;
+}
+
+.MainSpeel{
+    justify-content: center;
+    position: absolute;
+    width: 100vw;
+    top: 10%;
+    text-align: center;
+}
+
+.WelcomeText{
+    font-size: 2rem;
+    font-family: Monospace;
+}
+
+.wholeLine{
+    width: 75vw;
+    margin-left: 50%;
+    transform: translate(-50%,0%);
+}
+
+.Explore {
+    justify-content: left;
+    padding-left: 25vw;
+    width: 50vw;
+    display: flex;
+  }
+
+.cssIsStupid {
+    background-color: var(--Background2);
+    height: 3vw;
+    width: 10vw;
+    text-align: center;
+    line-height: 3vw;
+    padding-left: 1.25vw;
+    padding-right: 1.25vw;
+    margin: 1.25vw;
+    border-radius: 0.5vw;
+    filter: var(--ImageButtonFilt);
+    font-size: 2rem;
+    color: #ffffff;
+
+    transition: all 0.25s;
+}
+
+.cssIsStupid:hover {
+    background-color: var(--Background2);
+    height: 5vw;
+    width: 15vw;
+    text-align: center;
+    line-height: 5vw;
+    padding-left: 1.25vw;
+    padding-right: 1.25vw;
+    margin: 1.25vw;
+    border-radius: 0.5vw;
+}
+
+.gameCard{
+    left: 37.5vw;
+    position: relative;
+    width: 25vw;
+    height:12.5vw;
+    line-height: 12.5vw;
+    font-size: 3vw;
+    border-radius: 0.5vw;
+    transition : all 250ms ease-out;
+    color: #efefef;
+}
+
+.twoLineGameCard{
+    left: 37.5vw;
+    position: relative;
+    width: 25vw;
+    height:12.5vw;
+    line-height: 6.25vw;
+    font-size: 3vw;
+    border-radius: 0.5vw;
+    transition : all 250ms ease-out;
+    color: #efefef;
+}
+
+.gameCard:hover{
+    border-radius: 2.5vw;
+    transition : all 250ms ease-in;
+    
+}
+
+.twoLineGameCard:hover{
+    border-radius: 2.5vw;
+    transition : all 250ms ease-in;
+}
+
+.gamePresentation{
+    height: 100%;
+    transition: all 250ms ease-out;
+    border-radius: 0.5vw;
+    backdrop-filter: blur(0rem);
+    color: #ffffff00;
+
+    offset-position: 0vw 2.5vw;
+}
+
+.gamePresentation:hover{
+    transition: all 250ms ease-in;
+    border-radius: 2.5vw;
+    backdrop-filter: blur(1rem);
+    color: #ffffffff;
+
+    offset-position: 0vw 0vw;
+}
+.link{
+    margin: 0;
+    padding: 0;
+    line-height: 1vw;
+}
+
+.forceTHING{
+    color:  var(--Text);
+}
+
+.smolBoy {
+    width: 360px;
+    height: auto;
+}
+
+.slightlyBigger {
+    font-size: 1.5rem;
+}
