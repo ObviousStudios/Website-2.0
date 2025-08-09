@@ -13,4 +13,6 @@ new elementButton("WFTBS","WFTBS");
 new elementButton("TAM","TAM");
 new elementButton("AAR","AAR");
 new elementButton("ZS","ZS");
-new elementButton("ITFOTD","ITFOTD")
+new elementButton("ITFOTD","ITFOTD");
+new elementButton("DUN","DUN");
+new elementButton("SDUN","SDUN");

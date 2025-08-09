@@ -28,7 +28,7 @@
 .AAR{
     background-position: center;
     background-size: cover;
-    background-image: url(https://raw.githubusercontent.com/ObviousStudios/Website-Asset-Directory/main/images/AAR.png);
+    background-image: url(https://raw.githubusercontent.com/ObviousStudios/Website-Asset-Directory/main/images/AAR.webp);
 }
 
 .ZS{
@@ -41,4 +41,16 @@
     background-position: center;
     background-size: cover;
     background-image: url(https://raw.githubusercontent.com/ObviousStudios/Website-Asset-Directory/main/images/ITFOTD.png);
+}
+
+.DUN{
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://raw.githubusercontent.com/ObviousStudios/Website-Asset-Directory/main/DUNGEONITE.webp);
+}
+
+.SDUN{
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://raw.githubusercontent.com/ObviousStudios/Website-Asset-Directory/main/images/SUPER_DUNGEONITE.png);
 }
